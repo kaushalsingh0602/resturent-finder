@@ -55,4 +55,17 @@
   display: flex;
 }
 
+.shimeer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimer {
+  border-radius: 2px solid black;
+  clear: #514242;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

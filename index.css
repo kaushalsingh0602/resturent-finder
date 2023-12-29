@@ -61,3 +61,20 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+.shimeer-container{
+    display: flex;
+    flex-wrap: wrap;
+       
+}
+
+
+.shimer{
+    border-radius: 2px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    clear: rgb(81, 66, 66);
+
+}
