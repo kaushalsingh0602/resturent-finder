@@ -1,9 +1,12 @@
 
 import logo from "./loho2.svg"
-import { useState } from "react";  
+import { useState,useEffect } from "react";
+import { Link } from "react-router-dom";  
 
 const Header=()=>{
     const[login,setLogin]=useState("Login")
+
+    useEffect(()=>{},[])
     return (
         <div className="header">
             <div className="logo">
@@ -12,9 +15,9 @@ const Header=()=>{
             </div>
             <div className="nav-item">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contect Us</li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/contectus">Contect Us</Link></li>
                     <li>Cart</li>
                     <button className="login" onClick={()=>{
                         login==="Login"?setLogin("Logout"):setLogin("Login");  

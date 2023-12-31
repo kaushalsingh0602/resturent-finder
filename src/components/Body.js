@@ -8,10 +8,10 @@ const BodyComponent = () => {
   const[ListOfResturent,setListOfResturent]=useState([]) 
   const[serchResturent,setSerchResturent]=useState([]) 
   const[resList,setList]=useState([]) 
-  const [searchText,setSearchText]=useState([])
+  const[searchText,setSearchText]=useState([])
 
 
-   useEffect(()=>{
+  useEffect(()=>{
     fetchData()
   },[])
 
